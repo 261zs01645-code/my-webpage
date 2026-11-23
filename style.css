@@ -1,0 +1,180 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  color: #40566b;
+  background: #ffffff;
+  line-height: 1.8;
+}
+
+header {
+  background: #dff4ff;
+  padding: 20px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  color: #398dbb;
+  font-size: 22px;
+}
+
+nav a {
+  color: #397b9e;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #155b87;
+}
+
+.hero {
+  min-height: 430px;
+  background: linear-gradient(135deg, #bce9ff, #edfaff);
+  display: flex;
+  align-items: center;
+  padding: 60px 10%;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-content h2 {
+  font-size: 48px;
+  color: #267ba9;
+  line-height: 1.2;
+  margin: 15px 0;
+}
+
+.hero-content p {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  background: #55acd8;
+  color: white;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background: #287da9;
+}
+
+.section {
+  padding: 70px 10%;
+  text-align: center;
+}
+
+.section h2 {
+  color: #58a9d1;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+.section h3 {
+  font-size: 23px;
+  margin-bottom: 25px;
+}
+
+.section > p {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.blue {
+  background: #effaff;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  width: 220px;
+  box-shadow: 0 4px 15px rgba(60, 140, 180, 0.12);
+}
+
+.card h4 {
+  color: #398dbb;
+  margin-bottom: 10px;
+}
+
+.frequency {
+  margin-top: 30px !important;
+  font-weight: bold;
+  color: #398dbb;
+}
+
+button {
+  background: #55acd8;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 13px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+button:hover {
+  background: #287da9;
+}
+
+#message {
+  color: #398dbb;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+footer {
+  background: #ccecff;
+  color: #397b9e;
+  text-align: center;
+  padding: 25px;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  header {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  .hero-content h2 {
+    font-size: 36px;
+  }
+
+  .section {
+    padding: 50px 6%;
+  }
+}
